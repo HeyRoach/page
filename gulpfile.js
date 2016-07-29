@@ -10,9 +10,9 @@ gulp.task('build', function() {
     //     .pipe(concat('app.js'))
     //     .pipe(gulp.dest('./assets/js'));
 
-    gulp.src(['./assets/css/src/*.css'])
+    gulp.src(['./assets/css/src/*.css', './assets/css/src/*.scss'])
         .pipe(concat('styles.min.css'))
-        // .pipe(sass())
+        .pipe(sass())
         .pipe(myth())
         .pipe(csso())
         .pipe(gulp.dest('./assets/css'));
