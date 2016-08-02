@@ -193,10 +193,10 @@ body {
             position: absolute;
             background: #0270ba;
             height: 8px;
-            top: 50%;
-            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
             width: 100%;
-            transform: translate(0%, -50%);
         }
     }
 }
