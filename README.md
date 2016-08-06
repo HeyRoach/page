@@ -11,5 +11,5 @@ $ npm install gulp gulp-concat gulp-csso gulp-myth gulp-sass gulp-uglify
 ```
 #### 3. Run:
 ```sh
-$ gulp sass
+$ gulp build
 ```
